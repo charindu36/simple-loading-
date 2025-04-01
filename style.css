@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#loading{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid #282c34;
+    border-top: 15px solid red;
+    border-right: 15px solid red;
+    border-bottom: 15px solid red;
+    animation: circle 1.4s infinite linear;
+
+}
+@keyframes circle {
+    0%{
+        transform: translate(0,0);
+        rotate: 0deg;
+    }
+    100%{
+        transform: translate(0,0);
+        rotate: 360deg;
+    }
+}
